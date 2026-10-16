@@ -46,6 +46,22 @@
 
         <div id="noticias" class="scroll-mt-20 mt-10 mx-10"></div>
         <h3 class="text-center mb-4 text-xl font-bold">Noticias</h3>
+            <section id="noticias" className="py-12 bg-gray-50">
+                <div className="max-w-6xl mx-auto px-4">
+                    
+                    <!-- Cabecera de la sección -->
+                    <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-gray-900">Noticias Recientes</h2>
+                    <p className="text-gray-600 mt-2">Entérate de mis últimas actualizaciones y artículos</p>
+                    </div>
+
+                    <!-- Contenedor responsivo de Tailwind donde JavaScript inyectará las tarjetas -->
+                    <div id="contenedor-noticias" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Las tarjetas se generarán dinámicamente aquí -->
+                    </div>
+
+                </div>
+            </section>
 
         <div class="h-0.5 w-full bg-linear-to-r from-transparent via-[#092565] to-transparent mt-10"></div>
 

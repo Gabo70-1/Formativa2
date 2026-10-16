@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Lanzamiento de mi Portafolio Web",
+    "fecha": "16 de Octubre, 2026",
+    "contenido": "Hoy he publicado oficialmente mi portafolio desarrollado con React y Bootstrap, integrando pruebas unitarias automáticas."
+  },
+  {
+    "id": 2,
+    "titulo": "Próximos Pasos: Aprendiendo Backend",
+    "fecha": "12 de Octubre, 2026",
+    "contenido": "Tras dominar las tecnologías de Frontend en el módulo Fullstack II, comenzaré a integrar servicios y APIs de Node.js."
+  }
+]
