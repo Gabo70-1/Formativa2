@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-[#9a61e6] text-amber-50">
+    <header class="bg-[#9a11e6] px-2 flex justify-between items-center border-b border-[#0e307f] fixed top-0 w-full z-50" >
+        <h1 class="text-xl font-bold items-center justify-center text-amber-50 cursor-pointer pl-2">Portafolio - Gabriel Yañez</h1>
+        <nav class="p-1 flex gap-6 items-center justify-center">
+            <a href="#proyectos" class="p-2 border-l-2 text-black hover:text-amber-50 transition">Proyectos</a>
+            <a href="#sobre-mi" class="p-2 border-l-2 text-black hover:text-amber-50 transition">Sobre mí</a>
+            <a href="#contacto" class="p-2 border-l-2 text-black hover:text-amber-50 transition">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="pt-16">
+        <div id="sobre-mi" class="scroll-mt-26 mt-10 mx-10">
+            <center><img src="./src/img/toll.png" alt="Foto mia" class="rounded-full"></center>
+            <h2 class="text-center font-bold text-xl mb-8">Sobre mí</h2>
+            <center><a href="https://github.com/Gabo70-1">https://github.com/Gabo70-1</a></center>
+            <center> <p>Bienvenido a mi portafolio personal donde comparto mis proyectos y noticias recientes. ¡Explora y conoce más sobre mi trabajo!</p></center>
+        </div>
+
+        <div class="h-0.5 w-full bg-linear-to-r from-transparent via-[#092565] to-transparent mt-10"></div>
+        
+        <div id="proyectos" class="scroll-mt-20 mt-10 mx-10">
+            <h3 class="text-center font-bold text-xl mb-8">Proyectos</h3>
+            <section class="grid grid-cols-2 gap-6">
+                <article class="w-full bg-[#9a11e6] border border-slate-700 overflow-hidden rounded-xl hover:scale-102 transition-all">
+                    <a href="https://kibo64.github.io/LEVEL-UP-GAMER/index.html" target="_blank" >
+                        <img src="./src/img/levelup.png" alt="Paguina level up gamer" class="object-cover w-full">
+                    </a>
+                    <div class="p-4">
+                        <h3 class="pb-2 font-bold text-lg">LEVEL-UP-GAMER</h3>
+                        <p class="text-slate-300">Es una tienda en línea de videojuegos y juegos de mesa con un diseño moderno de fondo morado. Su catálogo está organizado en una cuadrícula con opciones para filtrar los productos por consolas, juegos de mesa y accesorios.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <div class="h-0.5 w-full bg-linear-to-r from-transparent via-[#092565] to-transparent mt-10"></div>
+
+        <div id="contacto" class="scroll-mt-20 mt-10 mx-10">
+            <h3 class="text-center mb-4 text-xl font-bold">Contáctame</h3>
+            <form id="formulario" class="p-5 flex-col flex gap-6 border border-slate-700 rounded-xl">
+                <div class="flex flex-col gap-1">
+                    <label>Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Pepe Tapia"
+                        class="w-full border border-[#560b7e]"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-1">
+                    <label>Correo</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="pepe.tapia@gmail.com"
+                        class="w-full border border-[#560b7e]"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-1">
+                    <label>Comentarios</label>
+                    <textarea id="mensaje" class="w-full border border-[#560b7e]" placeholder="hola como estas jijiji"></textarea>
+                </div>
+                <div class="m-auto">
+                    <input
+                        type="submit"
+                        class="border border-[#560b7e] w-fit p-2"
+                    >
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-[#9a11e6] mt-20 text-center text-black py-3 border-t border-[#9a11e6]">2026 - Gabriel Yañez</footer>
+    <script src="./src/script.js"></script>
+</body>
+</html>
